@@ -18,5 +18,4 @@ Route::get('/', function () {
 });
 
 Route::post('/', [kouzaContoroller::class, 'post'])->name('post');
-
 Route::get('/recv', [kouzaContoroller::class, 'recv'])->name('recv');
